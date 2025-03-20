@@ -136,10 +136,37 @@ body.dark .project-item {
 }
 
 body.light .navbar-brand {
-    color: #121212; /* Black text */
+    color: #121212; 
 }
 
 body.dark .navbar-brand {
-    color: #e8c782; /* Gold text */
+    color: #e8c782; 
+}
+
+.two-column-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.two-column-item {
+    flex: 1 1 calc(50% - 20px);
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+body.light .two-column-item {
+    background-color: #f5f5f5;
+    color: black;
+    border: 2px solid #50717f;
+}
+
+body.dark .two-column-item {
+    background-color: #1b1a55;
+    color: white;
+    border: 2px solid #e8c782;
 }
 
