@@ -1,0 +1,145 @@
+body.light {
+    background-color: #faf3dd; /* Soft Cream */
+    color: #121212; /* Dark text */
+}
+
+body.dark {
+    background-color: #1b1a55; /* Deep Navy Blue */
+    color: #e8c782; /* Gold text */
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+
+body.light .navbar {
+    background-color: #e8c782; /* Gold background */
+    color: #15405a; /* Dark Blue text */
+}
+
+body.dark .navbar {
+    background-color: #15405a; /* Dark Blue */
+    color: #e8c782; /* Gold text */
+}
+
+.navbar-nav .nav-link {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0 10px;
+}
+
+body.light .nav-link {
+    color: #15405a;
+}
+
+body.dark .nav-link {
+    color: #e8c782;
+}
+
+button {
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    transition: 0.3s;
+}
+
+body.light button {
+    background-color: #e8c782;
+    color: black;
+}
+
+body.dark button {
+    background-color: #828e84;
+    color: white;
+}
+
+.container {
+    padding: 20px;
+    text-align: center;
+    margin: 20px auto;
+    max-width: 900px;
+    border-radius: 10px;
+}
+
+/* Light Mode Containers */
+body.light .container {
+    background-color: #ffffff;
+    border: 2px solid #50717f;
+}
+
+/* Dark Mode Containers */
+body.dark .container {
+    background-color: #1b1a55;
+    border: 2px solid #e8c782;
+}
+
+.home-container {
+    padding: 30px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+/* Light Mode Home */
+body.light .home-container {
+    background-color: #ffffff;
+}
+
+/* Dark Mode Home */
+body.dark .home-container {
+    background-color: #1b1a55;
+}
+
+img {
+    border-radius: 10px;
+    max-width: 300px;
+    display: block;
+    margin: 20px auto;
+}
+
+/* 🔹 Projects */
+.projects-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.project-item {
+    flex: 1 1 calc(50% - 20px);
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+body.light .project-item {
+    background-color: #f5f5f5;
+    color: black;
+}
+
+body.dark .project-item {
+    background-color: #1b1a55;
+    color: white;
+}
+
+@media (max-width: 768px) {
+    .project-item {
+        flex: 1 1 100%;
+    }
+}
+
+body.light .navbar-brand {
+    color: #121212; /* Black text */
+}
+
+body.dark .navbar-brand {
+    color: #e8c782; /* Gold text */
+}
+
