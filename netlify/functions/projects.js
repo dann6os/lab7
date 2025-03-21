@@ -10,7 +10,7 @@ const projects = [
     {
       id: 2,
       name: "CSCI3172 QuickCash Project",
-      author: ["David Wray", "Joshua Vidal", "Robyn Treen", "Danny Zhang", "Tarang", "Nathan"],
+      author: ["David Wray", " Joshua Vidal", " Robyn Treen", " Danny Zhang", " Tarang", " Nathan"],
       description: "An app that helps employees find jobs and employers post jobs.",
       technologies: ["Android Studio", "Figma"],
       languages: ["Java", "XML"],

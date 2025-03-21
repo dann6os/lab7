@@ -3,6 +3,6 @@
   publish = "dist"
 
 [[redirects]]
-  from = "/api/projects"
-  to = "/.netlify/functions/projects"
+  from = "/api/weather"
+  to = "/.netlify/functions/weather"
   status = 200
