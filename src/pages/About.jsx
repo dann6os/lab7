@@ -1,4 +1,5 @@
 import React from "react";
+import Skills from "../components/Skills";
 
 const About = () => {
   return (
@@ -28,20 +29,12 @@ const About = () => {
         </div>
 
         <div className="two-column-item">
-          <h2>💼 Experience</h2>
+          <h2>Experience</h2>
           <p>Worked on Geriatric Psychiatry Project as a Junior Dev.</p>
         </div>
 
         <div className="two-column-item">
-            <h2>🛠️ Skills</h2>
-            <div className="skills-grid">
-              <div className="skill-card">Java</div>
-              <div className="skill-card">SQL</div>
-              <div className="skill-card">JUnit Testing</div>
-              <div className="skill-card">React</div>
-              <div className="skill-card">Firebase</div>
-              <div className="skill-card">Node.js</div>
-            </div>
+          <Skills />
           </div>
 
           <div className="two-column-item">

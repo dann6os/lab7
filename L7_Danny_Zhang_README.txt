@@ -6,7 +6,7 @@
 * Lab URL to my csci3172 repository: https://git.cs.dal.ca/danny/csci-3172
 * Timberlea Lab URL : N/A for this Lab
 
-* Netlify URL : https://dannyzportfolio.netlify.app/
+* Netlify URL : https://dannyportfoliolab7.netlify.app/
 
 
 ## Authors
@@ -21,6 +21,9 @@
 * The grid structure code was interpreted and used from lab 3 CSCI3172
 
 * Images of myself were from my own camera roll taken by myself. 
+
+* The front end was copied over from the Lab 6 assignment, styles page was slightly modified to fit the additions required for Lab 7.
+
 
 
 
