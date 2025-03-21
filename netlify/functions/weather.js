@@ -1,4 +1,4 @@
-const fetch = require("node-fetch");
+import fetch from "node-fetch";
 
 exports.handler = async function () {
   const apiKey = process.env.WEATHER_API_KEY;
