@@ -1,5 +1,6 @@
 import React from "react";
 import Skills from "../components/Skills";
+import floofyrabbit from "../assets/floofyrabbit.jpeg";
 
 const About = () => {
   return (
@@ -11,7 +12,7 @@ const About = () => {
 
       <div className="two-column-container">
         <div className="two-column-item">
-          <h2>About Myself</h2>
+          <h4>A bit about Myself</h4>
           <p>My name is Danny Zhang, I am a third-year Applied Computer Science student at 
         Dalhousie University in Halifax. I was born and raised in the Annapolis Valley 
         (about an hour from Halifax), and I enjoy traveling!
@@ -40,6 +41,8 @@ const About = () => {
           <div className="two-column-item">
           <h2>Career Goals</h2>
           <p>Currently still gauging options, animal science or working with veterinary software</p>
+          <img src={floofyrabbit} alt="My rabbit" className="rabbit-img" />
+          <p>(This is my rabbit)</p>
         </div>
 
 

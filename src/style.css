@@ -189,5 +189,13 @@ body.dark .two-column-item {
     background-color: #15405a;
     color: white;
   }
+
+  .rabbit-img {
+    max-width: 100%;  
+    max-height: 250px; 
+    border-radius: 10px;  
+    display: block;
+    margin: 10px auto;
+  }
   
 

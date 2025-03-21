@@ -18,7 +18,7 @@ const Home = () => {
 
       {weather ? (
         <div>
-          <h3>🌤 Weather in {weather.city}</h3>
+          <h3>🌧️ Weather in {weather.city}</h3>
           <p>Temperature: {weather.temperature}°C</p>
           <p>Humidity: {weather.humidity}%</p>
         </div>
