@@ -20,6 +20,8 @@ const Projects = () => {
           projects.map((project) => (
             <div key={project.id} className="project-item">
               <h2>{project.name}</h2>
+              <p><strong>Author:</strong> {project.author}</p>
+              <p><strong>Languages:</strong> {project.languages.join(", ")}</p>
               <p>{project.description}</p>
               <p><strong>Technologies Used:</strong> {project.technologies.join(", ")}</p>
             </div>
